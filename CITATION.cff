@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "VeriTrust Artifacts (Conceptual Scaffold)"
+version: "v0.1.0"
+authors:
+  - family-names: "Butt"
+    given-names: "Usman"
+    affiliation: "Ajman University"
+repository-code: "https://github.com/marufrigan/veritrust-artifacts"
+message: "If you use these artifacts, please cite this repository."

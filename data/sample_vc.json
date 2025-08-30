@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1"
+  ],
+  "type": [
+    "VerifiableCredential",
+    "PressIDCredential"
+  ],
+  "issuer": "did:key:z6MkhIssuerEXAMPLE",
+  "issuanceDate": "2025-08-01T00:00:00Z",
+  "credentialSubject": {
+    "id": "did:key:z6MkAuthorEXAMPLE",
+    "role": "Journalist",
+    "affiliation": "Example News"
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2025-08-01T00:00:01Z",
+    "verificationMethod": "did:key:z6MkhIssuerEXAMPLE#keys-1",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJ...demo"
+  }
+}

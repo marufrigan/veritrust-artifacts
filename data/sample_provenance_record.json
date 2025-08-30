@@ -1,0 +1,12 @@
+{
+  "creatorDID": "did:key:z6MkAuthorEXAMPLE",
+  "timestamp": "2025-08-01T00:10:00Z",
+  "metadataCID": "ipfs://bafy...demoCID",
+  "content": {
+    "raw_example": "Hello VeriTrust",
+    "sha256_hex": "b12d005b720944c4c15c35bfe0d95a01fc6d1adc5ac6e63eac7ae35301b40c8a"
+  },
+  "batch": {
+    "merkle_root": "df67fa89c2aaf7744892ae8f5bc941c562bbb31c7d7fce764e64e5c6a1ae6b39"
+  }
+}

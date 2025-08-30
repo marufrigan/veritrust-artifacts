@@ -1,0 +1,26 @@
+version: "3.9"
+services:
+  # besu:
+  #   image: hyperledger/besu:23.10
+  #   container_name: besu
+  #   command: ["--network=dev", "--data-path=/data"]
+  #   ports: ["8545:8545","8546:8546"]
+  #   volumes: ["./.data/besu:/data"]
+  #   profiles: ["template"]
+
+  # indy:
+  #   image: bcgovimages/von-image:py36-1.16-1
+  #   container_name: indy-pool
+  #   ports: ["9701-9708:9701-9708"]
+  #   profiles: ["template"]
+
+  # ipfs:
+  #   image: ipfs/kubo:latest
+  #   container_name: ipfs
+  #   ports: ["5001:5001","8080:8080"]
+  #   volumes: ["./.data/ipfs:/data/ipfs"]
+  #   profiles: ["template"]
+
+# NOTE:
+# - Services are commented and under the "template" profile so they don't run by default.
+# - Provided as **deployment skeletons**, not runnable demo.
